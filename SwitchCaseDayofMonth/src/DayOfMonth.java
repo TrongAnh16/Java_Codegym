@@ -25,6 +25,8 @@ public class DayOfMonth {
             case 11:
                 System.out.println("Tháng " +month+ " có 30 ngày");
                 break;
+            default:
+                System.out.println("");
         }
     }
 }
