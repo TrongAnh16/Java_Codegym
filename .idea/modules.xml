@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/SwitchCaseDayofMonth/SwitchCaseDayofMonth.iml" filepath="$PROJECT_DIR$/SwitchCaseDayofMonth/SwitchCaseDayofMonth.iml" />
       <module fileurl="file://$PROJECT_DIR$/SystemTime/SystemTime.iml" filepath="$PROJECT_DIR$/SystemTime/SystemTime.iml" />
       <module fileurl="file://$PROJECT_DIR$/bodyMassIndex/bodyMassIndex.iml" filepath="$PROJECT_DIR$/bodyMassIndex/bodyMassIndex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/show/show.iml" filepath="$PROJECT_DIR$/show/show.iml" />
       <module fileurl="file://$PROJECT_DIR$/variable/variable.iml" filepath="$PROJECT_DIR$/variable/variable.iml" />
     </modules>
   </component>
