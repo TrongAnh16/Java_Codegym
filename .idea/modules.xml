@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BankInterestRate/BankInterestRate.iml" filepath="$PROJECT_DIR$/BankInterestRate/BankInterestRate.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaFirstProject/JavaFirstProject.iml" filepath="$PROJECT_DIR$/JavaFirstProject/JavaFirstProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java_Codegym.iml" filepath="$PROJECT_DIR$/.idea/Java_Codegym.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeapYear/LeapYear.iml" filepath="$PROJECT_DIR$/LeapYear/LeapYear.iml" />
