@@ -8,9 +8,9 @@ public class findElement {
         String element = sc.nextLine();
         for (int i = 0; i < students.length; i++) {
             if (element.equals(students[i])) {
-                System.out.println(students[i] +" at index: " +i);
+                System.out.println(students[i] + " at index: " + i);
                 break;
-            }else if (i == students.length - 1){
+            } else if (i == students.length - 1) {
                 System.out.println("Element does not exist in array");
             }
         }
