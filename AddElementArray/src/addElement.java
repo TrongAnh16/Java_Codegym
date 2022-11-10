@@ -13,7 +13,6 @@ public class addElement {
             arr[i] = sc.nextInt();
             i++;
         }
-
         System.out.println("Enter a value want to add: ");
         int trans = sc.nextInt();
         int index;
