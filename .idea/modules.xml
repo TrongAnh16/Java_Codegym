@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/LinearEquationResolver/LinearEquationResolver.iml" filepath="$PROJECT_DIR$/LinearEquationResolver/LinearEquationResolver.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaxValueArray/MaxValueArray.iml" filepath="$PROJECT_DIR$/MaxValueArray/MaxValueArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/Menu/Menu.iml" filepath="$PROJECT_DIR$/Menu/Menu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MinValueArray/MinValueArray.iml" filepath="$PROJECT_DIR$/MinValueArray/MinValueArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/PrimeNumber/PrimeNumber.iml" filepath="$PROJECT_DIR$/PrimeNumber/PrimeNumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/PrintMenu/PrintMenu.iml" filepath="$PROJECT_DIR$/PrintMenu/PrintMenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/RectangleArea/RectangleArea.iml" filepath="$PROJECT_DIR$/RectangleArea/RectangleArea.iml" />
