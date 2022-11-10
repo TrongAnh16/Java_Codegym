@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BankInterestRate/BankInterestRate.iml" filepath="$PROJECT_DIR$/BankInterestRate/BankInterestRate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeleteElementArray/DeleteElementArray.iml" filepath="$PROJECT_DIR$/DeleteElementArray/DeleteElementArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/FindElementArray/FindElementArray.iml" filepath="$PROJECT_DIR$/FindElementArray/FindElementArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/GreatestCommonDivisor/GreatestCommonDivisor.iml" filepath="$PROJECT_DIR$/GreatestCommonDivisor/GreatestCommonDivisor.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaFirstProject/JavaFirstProject.iml" filepath="$PROJECT_DIR$/JavaFirstProject/JavaFirstProject.iml" />
