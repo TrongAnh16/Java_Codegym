@@ -27,6 +27,6 @@ public class maxValue2Way {
                 }
             }
         }
-        System.out.println("Max value in array is: "+max);
+        System.out.println("Max value in array is: " + max);
     }
 }
