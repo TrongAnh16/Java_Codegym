@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AccessModifier/AccessModifier.iml" filepath="$PROJECT_DIR$/AccessModifier/AccessModifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AccessModifier2Student/AccessModifier2Student.iml" filepath="$PROJECT_DIR$/AccessModifier2Student/AccessModifier2Student.iml" />
       <module fileurl="file://$PROJECT_DIR$/AddElementArray/AddElementArray.iml" filepath="$PROJECT_DIR$/AddElementArray/AddElementArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/BankInterestRate/BankInterestRate.iml" filepath="$PROJECT_DIR$/BankInterestRate/BankInterestRate.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConcatArray/ConcatArray.iml" filepath="$PROJECT_DIR$/ConcatArray/ConcatArray.iml" />
