@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/BankInterestRate/BankInterestRate.iml" filepath="$PROJECT_DIR$/BankInterestRate/BankInterestRate.iml" />
       <module fileurl="file://$PROJECT_DIR$/CircleCylinder/CircleCylinder.iml" filepath="$PROJECT_DIR$/CircleCylinder/CircleCylinder.iml" />
       <module fileurl="file://$PROJECT_DIR$/Comparable/Comparable.iml" filepath="$PROJECT_DIR$/Comparable/Comparable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ComparatorInterface/ComparatorInterface.iml" filepath="$PROJECT_DIR$/ComparatorInterface/ComparatorInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConcatArray/ConcatArray.iml" filepath="$PROJECT_DIR$/ConcatArray/ConcatArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/CountCharacterInString/CountCharacterInString.iml" filepath="$PROJECT_DIR$/CountCharacterInString/CountCharacterInString.iml" />
       <module fileurl="file://$PROJECT_DIR$/DeleteElementArray/DeleteElementArray.iml" filepath="$PROJECT_DIR$/DeleteElementArray/DeleteElementArray.iml" />
