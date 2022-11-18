@@ -1,3 +1,5 @@
+package shape;
+
 public class Square extends Rectangle{
     public Square(){
     }
@@ -6,7 +8,7 @@ public class Square extends Rectangle{
     }
     public Square(double side, String color, boolean filled){
         super(side,side,color,filled);
-}
+    }
     public double getSide(){
         return getWidth();
     }
@@ -18,4 +20,10 @@ public class Square extends Rectangle{
                 +", which a subclass of "
                 + super.toString();
     }
+    @Override
+    public Square resize(double percent) {
+        double newSide = this.getSide() + this.getSide()*percent/100;
+        return new Square(newSide);
+    }
 }
+
