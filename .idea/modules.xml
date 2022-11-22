@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/Animal.InterfaceEdible/Animal.InterfaceEdible.iml" filepath="$PROJECT_DIR$/Animal.InterfaceEdible/Animal.InterfaceEdible.iml" />
       <module fileurl="file://$PROJECT_DIR$/BankInterestRate/BankInterestRate.iml" filepath="$PROJECT_DIR$/BankInterestRate/BankInterestRate.iml" />
       <module fileurl="file://$PROJECT_DIR$/CircleCylinder/CircleCylinder.iml" filepath="$PROJECT_DIR$/CircleCylinder/CircleCylinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CleanCodeCalculator/CleanCodeCalculator.iml" filepath="$PROJECT_DIR$/CleanCodeCalculator/CleanCodeCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Colorable/Colorable.iml" filepath="$PROJECT_DIR$/Colorable/Colorable.iml" />
       <module fileurl="file://$PROJECT_DIR$/Comparable/Comparable.iml" filepath="$PROJECT_DIR$/Comparable/Comparable.iml" />
       <module fileurl="file://$PROJECT_DIR$/ComparatorInterface/ComparatorInterface.iml" filepath="$PROJECT_DIR$/ComparatorInterface/ComparatorInterface.iml" />
@@ -20,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Java_Codegym.iml" filepath="$PROJECT_DIR$/.idea/Java_Codegym.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeapYear/LeapYear.iml" filepath="$PROJECT_DIR$/LeapYear/LeapYear.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinearEquationResolver/LinearEquationResolver.iml" filepath="$PROJECT_DIR$/LinearEquationResolver/LinearEquationResolver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListSimple/ListSimple.iml" filepath="$PROJECT_DIR$/ListSimple/ListSimple.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaxValue2Way/MaxValue2Way.iml" filepath="$PROJECT_DIR$/MaxValue2Way/MaxValue2Way.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaxValueArray/MaxValueArray.iml" filepath="$PROJECT_DIR$/MaxValueArray/MaxValueArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/Menu/Menu.iml" filepath="$PROJECT_DIR$/Menu/Menu.iml" />
@@ -45,6 +47,8 @@
       <module fileurl="file://$PROJECT_DIR$/SumRow2Way/SumRow2Way.iml" filepath="$PROJECT_DIR$/SumRow2Way/SumRow2Way.iml" />
       <module fileurl="file://$PROJECT_DIR$/SwitchCaseDayofMonth/SwitchCaseDayofMonth.iml" filepath="$PROJECT_DIR$/SwitchCaseDayofMonth/SwitchCaseDayofMonth.iml" />
       <module fileurl="file://$PROJECT_DIR$/SystemTime/SystemTime.iml" filepath="$PROJECT_DIR$/SystemTime/SystemTime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TITV_SplitArray/TITV_SplitArray.iml" filepath="$PROJECT_DIR$/TITV_SplitArray/TITV_SplitArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TITV_TaiXiu/TITV_TaiXiu.iml" filepath="$PROJECT_DIR$/TITV_TaiXiu/TITV_TaiXiu.iml" />
       <module fileurl="file://$PROJECT_DIR$/TransformTemperature/TransformTemperature.iml" filepath="$PROJECT_DIR$/TransformTemperature/TransformTemperature.iml" />
       <module fileurl="file://$PROJECT_DIR$/TriangleShape/TriangleShape.iml" filepath="$PROJECT_DIR$/TriangleShape/TriangleShape.iml" />
       <module fileurl="file://$PROJECT_DIR$/bodyMassIndex/bodyMassIndex.iml" filepath="$PROJECT_DIR$/bodyMassIndex/bodyMassIndex.iml" />
