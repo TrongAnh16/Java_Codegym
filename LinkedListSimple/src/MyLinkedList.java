@@ -32,19 +32,22 @@ public class MyLinkedList {
         temp.next.next = holder;
         numNodes++;
     }
+
     public void addFirst(Object data) {
         Node temp = head;
         head = new Node(data);
         head.next = temp;
         numNodes++;
     }
+
     public Node get(int index) {
         Node temp = head;
-        for (int i = 0; i<index; i++) {
+        for (int i = 0; i < index; i++) {
             temp = temp.next;
         }
         return temp;
     }
+
     public void printList() {
         Node temp = head;
         while (temp != null) {
