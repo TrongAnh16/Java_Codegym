@@ -7,6 +7,6 @@ public class Test {
         list.add(4,5);
         list.addFirst(0);
 
-        System.out.println(list.indexOf(1));
+        System.out.println(list.indexOf("Luffy"));
     }
 }
