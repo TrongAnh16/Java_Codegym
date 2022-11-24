@@ -37,6 +37,7 @@
       <module fileurl="file://$PROJECT_DIR$/Point2D3D/Point2D3D.iml" filepath="$PROJECT_DIR$/Point2D3D/Point2D3D.iml" />
       <module fileurl="file://$PROJECT_DIR$/PrimeNumber/PrimeNumber.iml" filepath="$PROJECT_DIR$/PrimeNumber/PrimeNumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/PrintMenu/PrintMenu.iml" filepath="$PROJECT_DIR$/PrintMenu/PrintMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QueueLinkedList/QueueLinkedList.iml" filepath="$PROJECT_DIR$/QueueLinkedList/QueueLinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/RectangleArea/RectangleArea.iml" filepath="$PROJECT_DIR$/RectangleArea/RectangleArea.iml" />
       <module fileurl="file://$PROJECT_DIR$/Resizeable/Resizeable.iml" filepath="$PROJECT_DIR$/Resizeable/Resizeable.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReverseArray/ReverseArray.iml" filepath="$PROJECT_DIR$/ReverseArray/ReverseArray.iml" />
