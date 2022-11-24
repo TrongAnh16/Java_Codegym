@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/ComparatorInterface/ComparatorInterface.iml" filepath="$PROJECT_DIR$/ComparatorInterface/ComparatorInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConcatArray/ConcatArray.iml" filepath="$PROJECT_DIR$/ConcatArray/ConcatArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/CountCharacterInString/CountCharacterInString.iml" filepath="$PROJECT_DIR$/CountCharacterInString/CountCharacterInString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CountingOccurrenceTreeMap/CountingOccurrenceTreeMap.iml" filepath="$PROJECT_DIR$/CountingOccurrenceTreeMap/CountingOccurrenceTreeMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/DeleteElementArray/DeleteElementArray.iml" filepath="$PROJECT_DIR$/DeleteElementArray/DeleteElementArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/FindElementArray/FindElementArray.iml" filepath="$PROJECT_DIR$/FindElementArray/FindElementArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/GreatestCommonDivisor/GreatestCommonDivisor.iml" filepath="$PROJECT_DIR$/GreatestCommonDivisor/GreatestCommonDivisor.iml" />
