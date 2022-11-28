@@ -51,6 +51,7 @@
       <module fileurl="file://$PROJECT_DIR$/Shape/Shape.iml" filepath="$PROJECT_DIR$/Shape/Shape.iml" />
       <module fileurl="file://$PROJECT_DIR$/Show20FirstPrime/Show20FirstPrime.iml" filepath="$PROJECT_DIR$/Show20FirstPrime/Show20FirstPrime.iml" />
       <module fileurl="file://$PROJECT_DIR$/ShowPrimeLessThan100/ShowPrimeLessThan100.iml" filepath="$PROJECT_DIR$/ShowPrimeLessThan100/ShowPrimeLessThan100.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SortWithComparablevsComparator/SortWithComparablevsComparator.iml" filepath="$PROJECT_DIR$/SortWithComparablevsComparator/SortWithComparablevsComparator.iml" />
       <module fileurl="file://$PROJECT_DIR$/StackArray/StackArray.iml" filepath="$PROJECT_DIR$/StackArray/StackArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/StackCheckBracket/StackCheckBracket.iml" filepath="$PROJECT_DIR$/StackCheckBracket/StackCheckBracket.iml" />
       <module fileurl="file://$PROJECT_DIR$/StackLinkedList/StackLinkedList.iml" filepath="$PROJECT_DIR$/StackLinkedList/StackLinkedList.iml" />
