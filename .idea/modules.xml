@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/Animal.InterfaceEdible/Animal.InterfaceEdible.iml" filepath="$PROJECT_DIR$/Animal.InterfaceEdible/Animal.InterfaceEdible.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/BankInterestRate/BankInterestRate.iml" filepath="$PROJECT_DIR$/BankInterestRate/BankInterestRate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CaseStudy_QLSV/CaseStudy_QLSV.iml" filepath="$PROJECT_DIR$/CaseStudy_QLSV/CaseStudy_QLSV.iml" />
       <module fileurl="file://$PROJECT_DIR$/CircleCylinder/CircleCylinder.iml" filepath="$PROJECT_DIR$/CircleCylinder/CircleCylinder.iml" />
       <module fileurl="file://$PROJECT_DIR$/CleanCodeCalculator/CleanCodeCalculator.iml" filepath="$PROJECT_DIR$/CleanCodeCalculator/CleanCodeCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Colorable/Colorable.iml" filepath="$PROJECT_DIR$/Colorable/Colorable.iml" />
@@ -63,6 +64,7 @@
       <module fileurl="file://$PROJECT_DIR$/TITV_SinhVienArrayList/TITV_SinhVienArrayList.iml" filepath="$PROJECT_DIR$/TITV_SinhVienArrayList/TITV_SinhVienArrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/TITV_SplitArray/TITV_SplitArray.iml" filepath="$PROJECT_DIR$/TITV_SplitArray/TITV_SplitArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/TITV_TaiXiu/TITV_TaiXiu.iml" filepath="$PROJECT_DIR$/TITV_TaiXiu/TITV_TaiXiu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestMap/TestMap.iml" filepath="$PROJECT_DIR$/TestMap/TestMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/TransformTemperature/TransformTemperature.iml" filepath="$PROJECT_DIR$/TransformTemperature/TransformTemperature.iml" />
       <module fileurl="file://$PROJECT_DIR$/TriangleShape/TriangleShape.iml" filepath="$PROJECT_DIR$/TriangleShape/TriangleShape.iml" />
       <module fileurl="file://$PROJECT_DIR$/bodyMassIndex/bodyMassIndex.iml" filepath="$PROJECT_DIR$/bodyMassIndex/bodyMassIndex.iml" />
