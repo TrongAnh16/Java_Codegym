@@ -1,6 +1,8 @@
 package main;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class DanhSachSinhVien {
     private ArrayList<SinhVien> danhSach;
@@ -58,6 +60,20 @@ public class DanhSachSinhVien {
             }
         }
     }
-    //9. Xuất ra danh sách sinh viên có điểm từ cao đến thấp.
 
+    //9. Xuất ra danh sách sinh viên có điểm từ cao đến thấp.
+    public void sapXepSinhVienGiamDanTheoDiem() {
+        Collections.sort(this.danhSach, new Comparator<SinhVien>() {
+            @Override
+            public int compare(SinhVien sv1, SinhVien sv2) {
+                if (sv1.getDiemTrungBinh() < sv2.getDiemTrungBinh()) {
+                    return 1;
+                } else if (sv1.getDiemTrungBinh() > sv2.getDiemTrungBinh()) {
+                    return -1;
+                } else {
+                    return 0;
+                }
+            }
+        });
+    }
 }
