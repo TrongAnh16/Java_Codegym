@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/BankInterestRate/BankInterestRate.iml" filepath="$PROJECT_DIR$/BankInterestRate/BankInterestRate.iml" />
       <module fileurl="file://$PROJECT_DIR$/CaseStudy_QLSV/CaseStudy_QLSV.iml" filepath="$PROJECT_DIR$/CaseStudy_QLSV/CaseStudy_QLSV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CharASCMaxLength/CharASCMaxLength.iml" filepath="$PROJECT_DIR$/CharASCMaxLength/CharASCMaxLength.iml" />
       <module fileurl="file://$PROJECT_DIR$/CircleCylinder/CircleCylinder.iml" filepath="$PROJECT_DIR$/CircleCylinder/CircleCylinder.iml" />
       <module fileurl="file://$PROJECT_DIR$/CleanCodeCalculator/CleanCodeCalculator.iml" filepath="$PROJECT_DIR$/CleanCodeCalculator/CleanCodeCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Colorable/Colorable.iml" filepath="$PROJECT_DIR$/Colorable/Colorable.iml" />
@@ -42,6 +43,7 @@
       <module fileurl="file://$PROJECT_DIR$/Point2D3D/Point2D3D.iml" filepath="$PROJECT_DIR$/Point2D3D/Point2D3D.iml" />
       <module fileurl="file://$PROJECT_DIR$/PrimeNumber/PrimeNumber.iml" filepath="$PROJECT_DIR$/PrimeNumber/PrimeNumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/PrintMenu/PrintMenu.iml" filepath="$PROJECT_DIR$/PrintMenu/PrintMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quang_KTModule2/Quang_KTModule2.iml" filepath="$PROJECT_DIR$/Quang_KTModule2/Quang_KTModule2.iml" />
       <module fileurl="file://$PROJECT_DIR$/QueueArray/QueueArray.iml" filepath="$PROJECT_DIR$/QueueArray/QueueArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/QueueCircularLinkedList/QueueCircularLinkedList.iml" filepath="$PROJECT_DIR$/QueueCircularLinkedList/QueueCircularLinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/QueueLinkedList/QueueLinkedList.iml" filepath="$PROJECT_DIR$/QueueLinkedList/QueueLinkedList.iml" />

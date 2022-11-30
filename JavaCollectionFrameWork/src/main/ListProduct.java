@@ -22,7 +22,7 @@ public class ListProduct {
     }
 
     //2. Change information product by id.
-    public boolean changeInformation( String id) {
+    public boolean changeInformation(String id) {
         for (Product product :
                 list) {
             if (product.getIdProduct().equals(id)) {
@@ -61,8 +61,8 @@ public class ListProduct {
 
     //5. Search product by name product.
     public void searchProduct(String nameProduct) {
-        for (Product product:list) {
-            if (product.getNameProduct().indexOf(nameProduct)>=0) {
+        for (Product product : list) {
+            if (product.getNameProduct().indexOf(nameProduct) >= 0) {
                 System.out.println(product);
             }
         }
@@ -75,9 +75,9 @@ public class ListProduct {
             public int compare(Product o1, Product o2) {
                 if (o1.getPrice() < o2.getPrice()) {
                     return 1;
-                }else if (o1.getPrice() > o2.getPrice()) {
+                } else if (o1.getPrice() > o2.getPrice()) {
                     return -1;
-                }else {
+                } else {
                     return 0;
                 }
             }

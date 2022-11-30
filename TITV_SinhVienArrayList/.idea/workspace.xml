@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9cf403ac-392f-43bd-9c56-b123aa72e0a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Quang_KTModule2/src/ActionInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quang_KTModule2/src/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quang_KTModule2/src/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaCollectionFrameWork/src/main/ListProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaCollectionFrameWork/src/main/ListProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaCollectionFrameWork/src/main/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaCollectionFrameWork/src/main/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaCollectionFrameWork/src/test/TestProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaCollectionFrameWork/src/test/TestProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TITV_SinhVienArrayList.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IDT542PbYq0uiEClce42BDJdlz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Java_Codegym/Quang_KTModule2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cf403ac-392f-43bd-9c56-b123aa72e0a4" name="Changes" comment="" />
+      <created>1669714967909</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669714967909</updated>
+      <workItem from="1669714969089" duration="34000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -15,13 +15,13 @@ public class TestProduct {
             System.out.println("-----MENU-----");
             System.out.println("Please enter your choice: ");
             System.out.println(
-                    "1. Add product.\n" +
-                    "2. Change information product by id.\n" +
-                    "3. Delete product by id.\n" +
-                    "4. Show list product.\n" +
-                    "5. Search product by name product.\n" +
-                    "6. Sort product ascending, descending by price.\n" +
-                    "0. Exit.\n"
+                            "1. Add product.\n" +
+                            "2. Change information product by id.\n" +
+                            "3. Delete product by id.\n" +
+                            "4. Show list product.\n" +
+                            "5. Search product by name product.\n" +
+                            "6. Sort product ascending, descending by price.\n" +
+                            "0. Exit.\n"
             );
             select = sc.nextInt();
             sc.nextLine();
@@ -40,12 +40,12 @@ public class TestProduct {
                 System.out.println("Change information product by id:");
                 String idProduct = sc.nextLine();
                 boolean status = listProduct.changeInformation(idProduct);
-                System.out.println(status?"Product is changed successfully":"Product is not found");
+                System.out.println(status ? "Product is changed successfully" : "Product is not found");
             } else if (select == 3) {
                 //3. Delete product by id.
                 System.out.println("Enter an idProduct: ");
                 String idProduct = sc.next();
-                System.out.println("Delete a product in list: "+listProduct.deleteProduct(idProduct));
+                System.out.println("Delete a product in list: " + listProduct.deleteProduct(idProduct));
             } else if (select == 4) {
                 //4. Show list product.
                 listProduct.showListProduct();
@@ -56,7 +56,7 @@ public class TestProduct {
                 System.out.println("Search result: ");
                 listProduct.searchProduct(nameProduct);
             } else if (select == 6) {
-                //6. Sort product ascending, descending by price.
+                //6. Sort product descending by price.
                 listProduct.sortProductDescending();
                 listProduct.showListProduct();
             }
