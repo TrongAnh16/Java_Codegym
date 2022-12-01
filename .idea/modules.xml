@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/BankInterestRate/BankInterestRate.iml" filepath="$PROJECT_DIR$/BankInterestRate/BankInterestRate.iml" />
       <module fileurl="file://$PROJECT_DIR$/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/BinarySearch/BinarySearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/BubbleSort/BubbleSort.iml" filepath="$PROJECT_DIR$/BubbleSort/BubbleSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BubbleSortByStep/BubbleSortByStep.iml" filepath="$PROJECT_DIR$/BubbleSortByStep/BubbleSortByStep.iml" />
       <module fileurl="file://$PROJECT_DIR$/CaseStudy_QLSV/CaseStudy_QLSV.iml" filepath="$PROJECT_DIR$/CaseStudy_QLSV/CaseStudy_QLSV.iml" />
       <module fileurl="file://$PROJECT_DIR$/CharASCMaxLength/CharASCMaxLength.iml" filepath="$PROJECT_DIR$/CharASCMaxLength/CharASCMaxLength.iml" />
       <module fileurl="file://$PROJECT_DIR$/CircleCylinder/CircleCylinder.iml" filepath="$PROJECT_DIR$/CircleCylinder/CircleCylinder.iml" />
@@ -54,6 +55,7 @@
       <module fileurl="file://$PROJECT_DIR$/RectangleArea/RectangleArea.iml" filepath="$PROJECT_DIR$/RectangleArea/RectangleArea.iml" />
       <module fileurl="file://$PROJECT_DIR$/Resizeable/Resizeable.iml" filepath="$PROJECT_DIR$/Resizeable/Resizeable.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReverseArray/ReverseArray.iml" filepath="$PROJECT_DIR$/ReverseArray/ReverseArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SelectionSort/SelectionSort.iml" filepath="$PROJECT_DIR$/SelectionSort/SelectionSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Shape/Shape.iml" filepath="$PROJECT_DIR$/Shape/Shape.iml" />
       <module fileurl="file://$PROJECT_DIR$/Show20FirstPrime/Show20FirstPrime.iml" filepath="$PROJECT_DIR$/Show20FirstPrime/Show20FirstPrime.iml" />
       <module fileurl="file://$PROJECT_DIR$/ShowPrimeLessThan100/ShowPrimeLessThan100.iml" filepath="$PROJECT_DIR$/ShowPrimeLessThan100/ShowPrimeLessThan100.iml" />
