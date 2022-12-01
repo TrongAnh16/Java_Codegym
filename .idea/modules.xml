@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/Animal.InterfaceEdible/Animal.InterfaceEdible.iml" filepath="$PROJECT_DIR$/Animal.InterfaceEdible/Animal.InterfaceEdible.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/BankInterestRate/BankInterestRate.iml" filepath="$PROJECT_DIR$/BankInterestRate/BankInterestRate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/BinarySearch/BinarySearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/CaseStudy_QLSV/CaseStudy_QLSV.iml" filepath="$PROJECT_DIR$/CaseStudy_QLSV/CaseStudy_QLSV.iml" />
       <module fileurl="file://$PROJECT_DIR$/CharASCMaxLength/CharASCMaxLength.iml" filepath="$PROJECT_DIR$/CharASCMaxLength/CharASCMaxLength.iml" />
       <module fileurl="file://$PROJECT_DIR$/CircleCylinder/CircleCylinder.iml" filepath="$PROJECT_DIR$/CircleCylinder/CircleCylinder.iml" />
@@ -21,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/DecimalToBinary/DecimalToBinary.iml" filepath="$PROJECT_DIR$/DecimalToBinary/DecimalToBinary.iml" />
       <module fileurl="file://$PROJECT_DIR$/DeleteElementArray/DeleteElementArray.iml" filepath="$PROJECT_DIR$/DeleteElementArray/DeleteElementArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/FindElementArray/FindElementArray.iml" filepath="$PROJECT_DIR$/FindElementArray/FindElementArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUIPTBac1/GUIPTBac1.iml" filepath="$PROJECT_DIR$/GUIPTBac1/GUIPTBac1.iml" />
       <module fileurl="file://$PROJECT_DIR$/GreatestCommonDivisor/GreatestCommonDivisor.iml" filepath="$PROJECT_DIR$/GreatestCommonDivisor/GreatestCommonDivisor.iml" />
       <module fileurl="file://$PROJECT_DIR$/HashMapvsHashSet/HashMapvsHashSet.iml" filepath="$PROJECT_DIR$/HashMapvsHashSet/HashMapvsHashSet.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaCollectionFrameWork/JavaCollectionFrameWork.iml" filepath="$PROJECT_DIR$/JavaCollectionFrameWork/JavaCollectionFrameWork.iml" />
