@@ -1,6 +1,4 @@
 
-import de.vandermeer.asciitable.AsciiTable;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
