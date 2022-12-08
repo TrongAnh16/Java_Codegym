@@ -69,6 +69,7 @@
       <module fileurl="file://$PROJECT_DIR$/StaticProperty/StaticProperty.iml" filepath="$PROJECT_DIR$/StaticProperty/StaticProperty.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudentPass/StudentPass.iml" filepath="$PROJECT_DIR$/StudentPass/StudentPass.iml" />
       <module fileurl="file://$PROJECT_DIR$/SumMainDiagonalLine/SumMainDiagonalLine.iml" filepath="$PROJECT_DIR$/SumMainDiagonalLine/SumMainDiagonalLine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SumNumFileText/SumNumFileText.iml" filepath="$PROJECT_DIR$/SumNumFileText/SumNumFileText.iml" />
       <module fileurl="file://$PROJECT_DIR$/SumRow2Way/SumRow2Way.iml" filepath="$PROJECT_DIR$/SumRow2Way/SumRow2Way.iml" />
       <module fileurl="file://$PROJECT_DIR$/SwitchCaseDayofMonth/SwitchCaseDayofMonth.iml" filepath="$PROJECT_DIR$/SwitchCaseDayofMonth/SwitchCaseDayofMonth.iml" />
       <module fileurl="file://$PROJECT_DIR$/SystemTime/SystemTime.iml" filepath="$PROJECT_DIR$/SystemTime/SystemTime.iml" />
