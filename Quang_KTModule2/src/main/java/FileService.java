@@ -1,6 +1,5 @@
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class FileService {
@@ -15,4 +14,23 @@ public class FileService {
             ioException.printStackTrace();
         }
     }
+    public List<String> readData(String path) {
+        List<String> lines = new ArrayList<>();
+        try {
+            FileReader fileReader = new FileReader(path);
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+
+            String line = null;
+            while ((line = bufferedReader.readLine()) != null) {
+                lines.add(line);
+            }
+            bufferedReader.close();
+            fileReader.close();
+        } catch (IOException ioException) {
+            ioException.printStackTrace();
+        }
+        return lines;
+    }
 }
+
+
