@@ -1,4 +1,6 @@
-package view;
+/*package view;
+
+import model.Car;
 
 public class ParkingTicket {
     public String enterDate;
@@ -68,3 +70,4 @@ public class ParkingTicket {
         return String.format("%s,%s,%s,%s,%s,%s", car.getNumberPlate(), car.getCarColor(), car.getCarType(), this.getTime(), this.getDate(),this.getSpotNumber());
     }
 }
+*/

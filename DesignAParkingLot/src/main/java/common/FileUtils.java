@@ -1,17 +1,17 @@
-package view;
+package common;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class FileUtils {
-    private static FileUtils instance;
-    private FileUtils(){}
-    public static FileUtils getInstance(){
-        if (instance==null) return new FileUtils();
-        return instance;
-    }
-    public List<String> readData(String path){
+//    private static FileUtils instance;
+//    private FileUtils(){}
+//    public static FileUtils getInstance(){
+//        if (instance==null) return new FileUtils();
+//        return instance;
+//    }
+    public static List<String> readData(String path){
         List<String> lines = new ArrayList<>();
         try {
             FileReader fileReader = new FileReader(path);
@@ -28,9 +28,9 @@ public class FileUtils {
         }
     }
 
-    public void writeData(String path, List<String> data) {
+    public static void writeData(String path, List<String> data) {
         try {
-            FileWriter fileWriter = new FileWriter(path);
+            FileWriter fileWriter = new FileWriter(path, true);
             BufferedWriter bw = new BufferedWriter(fileWriter);
             for (String line : data) {
                 bw.write(line+"\n");
