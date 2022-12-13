@@ -33,25 +33,25 @@ public class RandomInfo {
     public String Time() {
         LocalTime localTime = LocalTime.now();
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("hh:mm a");
-        String enterTime = localTime.format(dateTimeFormatter);
-        return enterTime;
+        String inTime = localTime.format(dateTimeFormatter);
+        return inTime;
     }
 
     public String ExitTime() {
         LocalTime localTime = LocalTime.now();
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("hh:mm a");
-        String exitTime = localTime.format(dateTimeFormatter);
-        return exitTime;
+        String outTime = localTime.format(dateTimeFormatter);
+        return outTime;
     }
 
     public String Date() {
-        LocalDate mydate = LocalDate.now();
-        return mydate.toString();
+        LocalDate inDate = LocalDate.now();
+        return inDate.toString();
     }
 
     public String ExitDate() {
-        LocalDate exitdate = LocalDate.now();
-        return  exitdate.toString();
+        LocalDate outDate = LocalDate.now();
+        return  outDate.toString();
     }
 
     String[] cardtype = {"Debit", "Credit"};

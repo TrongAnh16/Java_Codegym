@@ -28,9 +28,9 @@ public class FileUtils {
         }
     }
 
-    public static void writeData(String path, List<String> data) {
+    public static void writeData(String path, List<String> data, boolean appen) {
         try {
-            FileWriter fileWriter = new FileWriter(path, true);
+            FileWriter fileWriter = new FileWriter(path, appen);
             BufferedWriter bw = new BufferedWriter(fileWriter);
             for (String line : data) {
                 bw.write(line+"\n");

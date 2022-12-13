@@ -1,4 +1,4 @@
-package view;
+package model;
 
 public class Payment {
     float hourAmount = 3000;
@@ -10,7 +10,7 @@ public class Payment {
         if (minute < 60 && minute >= 30) {
             totalAmountForMinute = 2000;
         } else if (minute < 30 && minute >= 15) {
-            totalAmountForMinute = 15;
+            totalAmountForMinute = 1500;
         } else if (minute < 15 && minute >= 1) {
             totalAmountForMinute = 1000;
         }

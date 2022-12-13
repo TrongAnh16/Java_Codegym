@@ -27,16 +27,17 @@ public class Start {
                         break;
                     case 2:
                         //tra xe
+                        service.parkingHistory();
                         break;
                     case 3:
                         //kiem tra thong tin gui xe
+                            service.searchInfoPackingTicket();
                         break;
                     case 4:
                         //Liet ke cac cho de xe con trong
                         break;
                     case 5:
                         //Hien thi tat ca thong tin xe da gui
-
                         service.getAllInfoParkingTicket();
                         service.showAllInfoParkingTicket();
                         break;
@@ -45,7 +46,8 @@ public class Start {
                         return;
                 }
             }catch ( Exception e) {
-                System.out.println("Vui long nhap lai");
+//                System.out.println("Vui long nhap lai");
+                e.printStackTrace();
             }
         }
     }

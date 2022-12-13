@@ -46,6 +46,7 @@ public class HistoryParking {
     public void setCarColor(String carColor) {
         this.carColor = carColor;
     }
+
     public int getTicketNumber() {
         return ticketNumber;
     }

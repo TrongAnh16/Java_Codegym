@@ -2,7 +2,7 @@ package view;
 
 public class TotalTime{
 
-    public static int[] CalculateTime(String enterdate, String exitdate, String entertime, String exittime){
+    public int[] CalculateTime(String enterdate, String exitdate, String entertime, String exittime){
 
         int firstDay = Integer.parseInt(enterdate.substring(8, 10));
         int lastDay = Integer.parseInt(exitdate.substring(8, 10));
@@ -10,7 +10,7 @@ public class TotalTime{
         int lastMonth = Integer.parseInt(exitdate.substring(5,7));
         int firstYear = Integer.parseInt(enterdate.substring(0,4));
 
-        //time calculation for different month days
+        //Tinh thoi gian cac ngay khac nhau theo thang
         if( firstMonth != lastMonth){
             int daysInMonth ;
             if (firstMonth == 1 || firstMonth == 3 || firstMonth == 5 || firstMonth == 7 || firstMonth == 8 || firstMonth == 10 || firstMonth == 12 ) {

@@ -8,8 +8,10 @@ public class ParkingTicket {
     private String numberPlate;
     private String carColor;
     private String carType;
-    private Timestamp inTime;
-    private Timestamp outTime;
+    private String inTime;
+    private String inDate;
+    private String outTime;
+    private String outDate;
     private double payment;
     private int status;
     private int numberSpot;
@@ -17,13 +19,15 @@ public class ParkingTicket {
     public ParkingTicket() {
     }
 
-    public ParkingTicket(int ticketNumber, String numberPlate, String carColor, String carType, Timestamp inTime, Timestamp outTime, double payment, int status, int numberSpot) {
+    public ParkingTicket(int ticketNumber, String numberPlate, String carColor, String carType, String inTime, String inDate, String outTime, String outDate, double payment, int status, int numberSpot) {
         this.ticketNumber = ticketNumber;
         this.numberPlate = numberPlate;
         this.carColor = carColor;
         this.carType = carType;
         this.inTime = inTime;
+        this.inDate = inDate;
         this.outTime = outTime;
+        this.outDate = outDate;
         this.payment = payment;
         this.status = status;
         this.numberSpot = numberSpot;
@@ -62,20 +66,36 @@ public class ParkingTicket {
         this.carType = carType;
     }
 
-    public Timestamp getInTime() {
+    public String getInTime() {
         return inTime;
     }
 
-    public void setInTime(Timestamp inTime) {
+    public void setInTime(String inTime) {
         this.inTime = inTime;
     }
 
-    public Timestamp getOutTime() {
+    public String getInDate() {
+        return inDate;
+    }
+
+    public void setInDate(String inDate) {
+        this.inDate = inDate;
+    }
+
+    public String getOutTime() {
         return outTime;
     }
 
-    public void setOutTime(Timestamp outTime) {
+    public void setOutTime(String outTime) {
         this.outTime = outTime;
+    }
+
+    public String getOutDate() {
+        return outDate;
+    }
+
+    public void setOutDate(String outDate) {
+        this.outDate = outDate;
     }
 
     public double getPayment() {
