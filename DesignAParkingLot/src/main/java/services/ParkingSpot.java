@@ -8,7 +8,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class ParkingSpot {
-    private ParkingTicketService parkingTicketService;
+    private final ParkingTicketService parkingTicketService;
     private List<ParkingTicket> tickets;
 
     public ParkingSpot() {
@@ -16,12 +16,13 @@ public class ParkingSpot {
         tickets = parkingTicketService.getAllInfoParkingTicket();
     }
 
-    public final int MAX_PARKING_SPOT = 10;
-    private int[] spots = new int[MAX_PARKING_SPOT];
+    public final int MAX_PARKING_SPOT = 100;
+    private final int[] spots = new int[MAX_PARKING_SPOT];
 
     public int SpotNum() {
-        for (int i = 0; i < tickets.size(); i++) {
-            spots[tickets.get(i).getNumberSpot() - 1] = tickets.get(i).getNumberSpot();
+        tickets = parkingTicketService.getAllInfoParkingTicket();
+        for (ParkingTicket ticket : tickets) {
+            spots[ticket.getNumberSpot() - 1] = ticket.getNumberSpot();
         }
         int count = 0;
         while (spots[count] != 0) {
