@@ -1,0 +1,12 @@
+423,Kẹo,32333.0,3,Kẹo ngọt
+77,Bắp,9999.0,9,Bắp luộc
+9999,Heo,5555.0,100,Heo quay
+11,Bánh,1000.0,10,Bánh quy
+2123,Ruller,25000.0,50,New Ruller
+1234,Book,25500.0,12,New Book
+123,Truyện,1200.0,41,Conan
+1213,Áo,234.0,435435,Áo Polo
+234,Quần,290.0,324,Quần jean
+12,Laptop,50000.0,5,ASUS
+15,Ipod,10000.0,10,Apple
+17,Kẹo,8000.0,10,ngọt

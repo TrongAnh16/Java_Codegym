@@ -1,22 +1,21 @@
-package view;
+package services;
 
-public class TotalTime{
+public class TotalTime {
 
-    public int[] CalculateTime(String enterdate, String exitdate, String entertime, String exittime){
+    public int[] CalculateTime(String enterdate, String exitdate, String entertime, String exittime) {
 
         int firstDay = Integer.parseInt(enterdate.substring(8, 10));
         int lastDay = Integer.parseInt(exitdate.substring(8, 10));
-        int firstMonth = Integer.parseInt(enterdate.substring(5,7), 10);
-        int lastMonth = Integer.parseInt(exitdate.substring(5,7));
-        int firstYear = Integer.parseInt(enterdate.substring(0,4));
+        int firstMonth = Integer.parseInt(enterdate.substring(5, 7), 10);
+        int lastMonth = Integer.parseInt(exitdate.substring(5, 7));
+        int firstYear = Integer.parseInt(enterdate.substring(0, 4));
 
-        //Tinh thoi gian cac ngay khac nhau theo thang
-        if( firstMonth != lastMonth){
-            int daysInMonth ;
-            if (firstMonth == 1 || firstMonth == 3 || firstMonth == 5 || firstMonth == 7 || firstMonth == 8 || firstMonth == 10 || firstMonth == 12 ) {
+        //Tính thời gian các ngày khác nhau theo tháng
+        if (firstMonth != lastMonth) {
+            int daysInMonth;
+            if (firstMonth == 1 || firstMonth == 3 || firstMonth == 5 || firstMonth == 7 || firstMonth == 8 || firstMonth == 10 || firstMonth == 12) {
                 daysInMonth = 31;
-            }
-            else {
+            } else {
                 if (firstMonth == 2) {
                     daysInMonth = (firstYear % 4 == 0) ? 29 : 28;
                 } else {
@@ -28,7 +27,7 @@ public class TotalTime{
             Days = Days + (lastDay - 1);
             int HourInTotalDays = Days * 24;
 
-            // Total hour in 1st day
+            // Tổng số giờ trong ngày đầu tiên
             int HoursInFirstDay = 0;
             int MinutesInFirstDay = 0;
 
@@ -50,8 +49,7 @@ public class TotalTime{
                 }
             }
 
-
-            // Total hour and minute in last day
+            // Tổng số giờ và phút trong ngày cuối
             int HoursInLastDay = 0;
             int MinutesInLastDay = 0;
 
@@ -73,8 +71,7 @@ public class TotalTime{
                 }
             }
 
-            // Total hours  and minutes
-
+            // Tổng số giờ và phút gửi xe
             int hour = HourInTotalDays + HoursInFirstDay + HoursInLastDay;
             int minute = MinutesInFirstDay + MinutesInLastDay;
 
@@ -82,18 +79,17 @@ public class TotalTime{
                 minute = minute - 60;
                 hour = hour + 1;
             }
-
             return new int[]{hour, minute};
-
         }
-        // time calculation for same month days
+
+        // Tính toán thời gian các ngày trong cùng 1 tháng
         else {
             if ((lastDay - firstDay) >= 2) {
-                // Total hour in days
+                // Tổng số giờ trong nhiều ngày
                 int Days = (lastDay - (firstDay - 1)) - 2;
                 int HourInTotalDays = Days * 24;
 
-                // Total hour in 1st day
+                // Tổng số giờ và phút ngày đầu tiên
                 int HoursInFirstDay = 0;
                 int MinutesInFirstDay = 0;
 
@@ -115,8 +111,7 @@ public class TotalTime{
                     }
                 }
 
-
-                // Total hour and minute in last day
+                // Tổng số giờ và phút ngày cuối
                 int HoursInLastDay = 0;
                 int MinutesInLastDay = 0;
 
@@ -138,8 +133,7 @@ public class TotalTime{
                     }
                 }
 
-                // Total hours  and minutes
-
+                // Tổng số giờ và phút
                 int hour = HourInTotalDays + HoursInFirstDay + HoursInLastDay;
                 int minute = MinutesInFirstDay + MinutesInLastDay;
 
@@ -147,12 +141,10 @@ public class TotalTime{
                     minute = minute - 60;
                     hour = hour + 1;
                 }
-
                 return new int[]{hour, minute};
             }
 
-            // for one day difference only
-
+            // Chỉ chênh lệch 1 ngày
             else if ((lastDay - firstDay) == 1) {
                 int HoursInFirstDay = 0;
                 int MinutesInFirstDay = 0;
@@ -173,10 +165,9 @@ public class TotalTime{
                         HoursInFirstDay = 12 - (Integer.parseInt(entertime.substring(0, 2)) + 1);
                         MinutesInFirstDay = 60 - Integer.parseInt(entertime.substring(3, 5));
                     }
-
                 }
 
-                // nour and minute in first and last days
+                // Giờ và phút trong ngày đầu và ngày cuối
                 int HoursInLastDay = 0;
                 int MinutesInLastDay = 0;
 
@@ -197,7 +188,6 @@ public class TotalTime{
                         HoursInLastDay = 12 + Integer.parseInt(exittime.substring(0, 2));
                         MinutesInLastDay = Integer.parseInt(exittime.substring(3, 5));
                     }
-
                 }
                 int hour = HoursInFirstDay + HoursInLastDay;
                 int minute = MinutesInFirstDay + MinutesInLastDay;
@@ -206,11 +196,9 @@ public class TotalTime{
                     hour = hour + 1;
                 }
                 return new int[]{hour, minute};
-
             }
 
-            // for one single day
-
+            // Chỉ giữ xe trong 1 ngày
             else if ((lastDay - firstDay) == 0) {
                 int ParkedHour = 0;
                 int ParkedMinute = 0;
@@ -256,18 +244,15 @@ public class TotalTime{
                     }
                     hour = ParkedHour + ExitHour;
                     minute = ParkedMinute + ExitMinute;
-
                 }
 
                 if (minute >= 60) {
                     minute = minute - 60;
                     hour = hour + 1;
                 }
-
                 return new int[]{hour, minute};
             }
         }
-        return new int[] {};
+        return new int[]{};
     }
-
 }

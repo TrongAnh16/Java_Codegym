@@ -5,12 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FileUtils {
-//    private static FileUtils instance;
-//    private FileUtils(){}
-//    public static FileUtils getInstance(){
-//        if (instance==null) return new FileUtils();
-//        return instance;
-//    }
     public static List<String> readData(String path){
         List<String> lines = new ArrayList<>();
         try {
@@ -28,9 +22,9 @@ public class FileUtils {
         }
     }
 
-    public static void writeData(String path, List<String> data, boolean appen) {
+    public static void writeData(String path, List<String> data, boolean append) {
         try {
-            FileWriter fileWriter = new FileWriter(path, appen);
+            FileWriter fileWriter = new FileWriter(path, append);
             BufferedWriter bw = new BufferedWriter(fileWriter);
             for (String line : data) {
                 bw.write(line+"\n");

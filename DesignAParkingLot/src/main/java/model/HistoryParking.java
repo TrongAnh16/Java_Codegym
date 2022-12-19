@@ -11,7 +11,6 @@ public class HistoryParking {
     private Timestamp inTime;
     private Timestamp outTime;
     private double payment;
-    private int status;
     private int numberSpot;
 
 
@@ -27,7 +26,7 @@ public class HistoryParking {
     public HistoryParking() {
     }
 
-    public HistoryParking(int ticketNumber, String numberPlate, String carColor, String carType, Timestamp inTime, Timestamp outTime, double payment, int status, int numberSpot) {
+    public HistoryParking(int ticketNumber, String numberPlate, String carColor, String carType, Timestamp inTime, Timestamp outTime, int numberSpot, double payment) {
         this.ticketNumber = ticketNumber;
         this.numberPlate = numberPlate;
         this.carColor = carColor;
@@ -35,7 +34,6 @@ public class HistoryParking {
         this.inTime = inTime;
         this.outTime = outTime;
         this.payment = payment;
-        this.status = status;
         this.numberSpot = numberSpot;
     }
 

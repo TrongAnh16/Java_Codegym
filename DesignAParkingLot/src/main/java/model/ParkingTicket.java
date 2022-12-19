@@ -4,7 +4,7 @@ import java.sql.Timestamp;
 import java.util.Date;
 
 public class ParkingTicket {
-    private int ticketNumber;
+    private long ticketNumber;
     private String numberPlate;
     private String carColor;
     private String carType;
@@ -13,14 +13,13 @@ public class ParkingTicket {
     private String outTime;
     private String outDate;
     private double payment;
-    private int status;
     private int numberSpot;
 
     public ParkingTicket() {
     }
 
-    public ParkingTicket(int ticketNumber, String numberPlate, String carColor, String carType, String inTime, String inDate, String outTime, String outDate, double payment, int status, int numberSpot) {
-        this.ticketNumber = ticketNumber;
+    public ParkingTicket(String numberPlate, String carColor, String carType, String inTime, String inDate, String outTime, String outDate,int numberSpot, double payment) {
+        this.ticketNumber = System.currentTimeMillis()/1000;
         this.numberPlate = numberPlate;
         this.carColor = carColor;
         this.carType = carType;
@@ -29,15 +28,14 @@ public class ParkingTicket {
         this.outTime = outTime;
         this.outDate = outDate;
         this.payment = payment;
-        this.status = status;
         this.numberSpot = numberSpot;
     }
 
-    public int getTicketNumber() {
+    public long getTicketNumber() {
         return ticketNumber;
     }
 
-    public void setTicketNumber(int ticketNumber) {
+    public void setTicketNumber(long ticketNumber) {
         this.ticketNumber = ticketNumber;
     }
 
@@ -104,14 +102,6 @@ public class ParkingTicket {
 
     public void setPayment(double payment) {
         this.payment = payment;
-    }
-
-    public int getStatus() {
-        return status;
-    }
-
-    public void setStatus(int status) {
-        this.status = status;
     }
 
     public int getNumberSpot() {

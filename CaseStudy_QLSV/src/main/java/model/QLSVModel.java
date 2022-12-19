@@ -33,4 +33,5 @@ public class QLSVModel {
         this.dsThiSinh.remove(thiSinh);
         this.dsThiSinh.add(thiSinh);
     }
+
 }

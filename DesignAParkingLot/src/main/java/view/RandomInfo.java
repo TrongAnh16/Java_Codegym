@@ -9,9 +9,9 @@ public class RandomInfo {
     Random random = new Random();
 
     String[] dist = {"75", "43", "29", "37", "74", "51", "96", "92"};
-    String[] alpha = {"A", "B", "C", "D", "E", "F", "G", "H"};
-    String[] color = {"Red", "Yellow", "Green", "White", "Brown", "Violet", "Pink"};
-    String[] type = {"Sedan", "Van", "Minivan", "Bus", "Pickup-truck", "Hatchback"};
+    String[] alpha = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "K"};
+    String[] color = {"Red", "Yellow", "Green", "White", "Brown", "Violet", "Pink", "Blue"};
+    String[] type = {"Mercedes", "Vinfast", "Porche", "Lamborghini", "Ferrari", "Toyota","Huyndai","Kia"};
 
     public String NumberPlate() {
         int di = random.nextInt(dist.length);
@@ -52,13 +52,6 @@ public class RandomInfo {
     public String ExitDate() {
         LocalDate outDate = LocalDate.now();
         return  outDate.toString();
-    }
-
-    String[] cardtype = {"Debit", "Credit"};
-
-    public String CardType() {
-        int caty = random.nextInt(cardtype.length);
-        return cardtype[caty];
     }
 
     public long CardNumber() {

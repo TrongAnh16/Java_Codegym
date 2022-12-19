@@ -1,52 +1,74 @@
 package view;
 
+import de.vandermeer.asciitable.AsciiTable;
+import de.vandermeer.skb.interfaces.transformers.textformat.TextAlignment;
+import services.ParkingSpot;
 import services.ParkingTicketService;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Start {
     public static void main(String[] args) {
         ParkingTicketService service = new ParkingTicketService();
+        ParkingTicketView parkingTicketView = new ParkingTicketView();
+        ParkingSpot parkingSpot = new ParkingSpot();
         while (true){
             Scanner sc = new Scanner(System.in);
-            int opt;
+            String opt;
             try {
-                System.out.println("----------MENU----------");
-                System.out.println("Nhap 1: De nhap thong tin gui xe");
-                System.out.println("Nhap 2: De tra xe");
-                System.out.println("Nhap 3: De kiem tra thong tin gui xe");
-                System.out.println("Nhap 4: Liet ke cac cho de xe con trong");
-                System.out.println("Nhap 5: Hien thi tat ca thong tin xe da gui");
-                System.out.println("Nhap 0: De thoat");
-                opt = sc.nextInt();
+                AsciiTable menu = new AsciiTable();
+                menu.addRule();
+                menu.addRow("----------MENU----------").getCells().get(0).getContext().setTextAlignment(TextAlignment.CENTER);
+
+                menu.addRule();
+                menu.addRow("Nhập 1: Để nhập thông tin xe");
+                menu.addRule();
+                menu.addRow("Nhập 2: Để trả xe");
+                menu.addRule();
+                menu.addRow("Nhập 3: Để kiểm tra thông tin gửi xe");
+                menu.addRule();
+                menu.addRow("Nhập 4: Liệt kê các chỗ đã để xe");
+                menu.addRule();
+                menu.addRow("Nhập 5: Hiển thị tất cả thông tin xe trong bãi");
+                menu.addRule();
+                menu.addRow("Nhập 0: Để thoát");
+                menu.addRule();
+                System.out.println(menu.render(50));
+                System.out.print("Chọn chức năng: ");
+                opt = sc.nextLine();
 
                 switch (opt){
-                    case 1:
-                        //nhap thong tin gui xe"
-                        service.addParkingTicket();
+                    case "1":
+                        //Nhập thông tin gửi xe
+                        parkingTicketView.addParkingTicketView();
                         break;
-                    case 2:
-                        //tra xe
+                    case "2":
+                        //Trả xe
                         service.parkingHistory();
                         break;
-                    case 3:
-                        //kiem tra thong tin gui xe
-                            service.searchInfoPackingTicket();
+                    case "3":
+                        //Kiểm tra thông tin gửi xe
+                        parkingTicketView.searchInfoPackingTicketView();
                         break;
-                    case 4:
-                        //Liet ke cac cho de xe con trong
+                    case "4":
+                        //Liệt kê các chỗ đã để xe
+                        parkingSpot.checkParkingSpotNum();
+                        ArrayList<String> dataWrite = new ArrayList<>();
+                        int spotNum = ParkingTicketService.checkIfSpotAvailable(parkingSpot);
+                        if (spotNum == -1) break;
                         break;
-                    case 5:
-                        //Hien thi tat ca thong tin xe da gui
+                    case "5":
+                        //Hiển thị tất cả thông tin xe đang gửi
                         service.getAllInfoParkingTicket();
-                        service.showAllInfoParkingTicket();
+                        parkingTicketView.showListParkingTicket(service.getAllInfoParkingTicket());
                         break;
-                    case 0:
-                        //thoat
+                    case "0":
+                        //Thoát
                         return;
                 }
             }catch ( Exception e) {
-//                System.out.println("Vui long nhap lai");
+                System.out.println("Vui long nhap lai");
                 e.printStackTrace();
             }
         }
